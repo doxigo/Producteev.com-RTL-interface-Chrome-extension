@@ -1,0 +1,127 @@
+/* Producteev.com RTL Interface for Stylish by Sohail Lajevardi, V-1.5 */
+.navbar .navbar-inner .header .navbar-search .search-query,
+form.add-task #add-task-input,
+#add-subtask, .add-note textarea, #project-search-field {
+	direction: rtl;
+}
+
+#editTaskTitle, .filled-label-item {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif !important;
+}
+
+#task-details-container div.title {
+	direction: rtl;
+    font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.td-content .title-header, .td-content .title-header.editing {
+	font-size: 13px;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+ tr.task {
+ 	direction: rtl;
+ 	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+.popover .project-picker .popover-content ul, .activities-list .activities li .activity-title,
+.modal form.add-project .name input, .modal form.add-network .name input, .modal form.add-label .name input, .modal form.add-project input[type=text], .modal form.add-network input[type=text], .modal form.add-label input[type=text], .modal form.delete-network input[type=text], .modal form.delete-account input[type=password] {
+ 	direction: rtl;
+ 	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	text-align: right;
+}
+
+form.add-task i.nlp-help {
+	right: auto;
+	left: 30px;
+}
+
+#sidebar .workspace-sidebar .sidebar-box .list ul.nav-list {
+	direction: rtl;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+#sidebar .workspace-sidebar .sidebar-box .list ul.nav-list li a.title {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.td-notes li.note .message, .td-content .td-notes textarea {
+	text-align: right;
+	direction: rtl;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.navbar .navbar-inner .nav li a.navbar-item, .filled-label-user .name, .pane-attribute-section.editing input,
+.task-activities-list .activities li.task-commented .activity-title span, .task-details-header .dropdown .dropdown-project .titleو form.add-task #add-task-input, .popover .info.sidebar .popover-content .body table tr td.user-info,
+.popover .info .popover-content a, .popover .info.sidebar .popover-content .header span, .task-details-header .dropdown .dropdown-project .title, .task-activities-list .activities>li a.user, .dropdown-menu>li>a,
+.td-content .visibility, .createdby {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+.popover .info.sidebar .popover-content .header h5, .tasks-list .filters .list-title div.tasks-list-title.ready, #add-task-input {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.typeahead-frame input {
+	text-align: right;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	direction: rtl;
+	font-size: 13px;
+}
+
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a, .dropdown-menu .active>a, .dropdown-menu .active>a:hover {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+.typeahead {
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.popover .notifications .popover-content li a .info {
+	text-align: right;
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+}
+
+.activities-list .activities li .comment {
+	font-family: B Yekan, Iranian Sans, "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+	direction: rtl;
+}
+
+.notifications .popover-content li a.mark-as-unread {
+	left: 19px;
+	right: auto;
+}
+
+.media>.pull-left {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.activities-list .activities li .timestamp {
+	text-align: right;
+}
+
+form.add-task i.nlp-help {
+	width: 13px;
+}
+
+form.add-task #add-task-input {
+	padding: 8px 20px 8px 48px;
+}
+
+.row-fluid [class*=span], .nav-tabs>li, .nav-pills>li {
+	float: right !important;
+}
+
+.navbar .navbar-inner .header .network-title {
+	position: static !important;
+}
